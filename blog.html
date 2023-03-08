@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>College website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="#"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Blogs</h1>
+    </section>
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="college-degree.png">
+                <h2>College Degree</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi, facilis aperiam placeat eius dolorum rerum ullam nobis, quisquam commodi numquam sed vero id? Velit deserunt corrupti modi magni consequatur in.</p><br><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam neque unde fuga dignissimos molestiae soluta culpa sint. Officia soluta a, quam voluptates mollitia reiciendis. Pariatur, accusamus? Ex est accusamus doloribus obcaecati, consequatur eligendi amet aut earum, dolor autem numquam cum blanditiis dolore praesentium quod impedit molestiae pariatur, minima quae officiis doloremque. A dicta laudantium, ut velit inventore distinctio accusantium in illum delectus quo natus asperiores. Dolorem et optio dolor sunt nisi quas eligendi, adipisci tenetur ratione ad aut aliquid mollitia nam magni quod atque commodi, excepturi rerum, libero eveniet id! Repellat tempore nam modi cum facilis error, nemo, aspernatur nisi vero asperiores impedit explicabo quaerat? Cupiditate, inventore doloribus in ab ullam quas vel enim qui esse amet harum dolorem dolor at quasi labore doloremque rerum velit tempore minus repudiandae sapiente? Qui nemo quaerat corrupti nostrum beatae sit laudantium. Animi, facere.</p><br><br>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita eos officia iure repellat, neque earum. Autem nam eum quod alias earum ipsum ex repudiandae corrupti accusantium beatae vero distinctio aliquam quo quisquam reprehenderit necessitatibus reiciendis atque harum, ipsa odio aliquid cumque consequatur quos? Aut, dignissimos.</p><br><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit corrupti praesentium fuga dignissimos maxime quasi itaque magnam soluta neque vitae.</p>
+
+
+                <div class="comment-box">
+                    <h3>Leave Your Comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Please leave your comment">
+                        </textarea>
+                        <button type="submit" class="hero-btn btn">Submit</button>
+                    </form>
+                </div>
+
+
+            </div>
+            <div class="blog-right">
+                <h3>Categories</h3>
+                <div>
+                    <span>Analyitcs</span>
+                    <span>50</span>
+                </div>
+                <div>
+                    <span>Computers</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Mechanical</span>
+                    <span>35</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>67</span>
+                </div>
+                <div>
+                    <span>Data science</span>
+                    <span>59</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer section  -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis facere dolor repudiandae magnam esse
+            <br>dolore expedita, nemo inventore totam? Inventore, quis maiores.
+        </p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+        <p>Designed and Developed by Ayush penumatsa</p>
+    </section>
+
+    <!-- Javascript code -->
+    <!-- Javascript toogle menu code -->
+    <script>
+        var navLinks = document.getElementById('navLinks');
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+
+</html>

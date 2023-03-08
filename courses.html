@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>College website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="#"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Courses We Offer</h1>
+    </section>
+
+    
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo laudantium incidunt aperiam!</p>
+    <div class="row">
+        <div class="column-col">
+            <h3>Computers</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt at corrupti asperiores cupiditate fuga
+                perspiciatis, aliquid omnis officiis architecto non dolorem velit facere eveniet provident amet
+                blanditiis? Ut explicabo itaque autem nesciunt?</p>
+        </div>
+        <div class="column-col">
+            <h3>Mechanical</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque enim autem fugit quod incidunt
+                deserunt provident dicta odit, voluptatem at consequatur, cupiditate tempora dolorum magni amet totam
+                vitae dignissimos cumque natus quo.</p>
+        </div>
+        <div class="column-col">
+            <h3>Electronic</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis rem animi illo, pariatur blanditiis
+                possimus eos cumque libero iste ex laborum, maxime tempora consequatur nostrum praesentium voluptate
+                laboriosam sequi. Dolor, dolore corrupti!</p>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials -->
+<section class="testimonials">
+    <h1>Students Experience</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex soluta odit natus?</p>
+    <div class="row">
+        <div class="testimonials-col">
+            <img src="person-1.png">
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam molestias quas sapiente illo
+                    adipisci. Quae, rerum! Quasi eligendi officia sint</p>
+                <h3>Ayush</h3>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+        </div>
+        <div class="testimonials-col">
+            <img src="person-2.png">
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam molestias quas sapiente illo
+                    adipisci. Quae, rerum! Quasi eligendi officia sint</p>
+                <h3>Ayush</h3>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Footer section  -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis facere dolor repudiandae magnam esse
+            <br>dolore expedita, nemo inventore totam? Inventore, quis maiores.
+        </p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+        <p>Designed and Developed by Ayush penumatsa</p>
+    </section>
+
+    <!-- Javascript code -->
+    <!-- Javascript toogle menu code -->
+    <script>
+        var navLinks = document.getElementById('navLinks');
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+
+</html>
